@@ -23,11 +23,11 @@
 
 class Analog24HourClock : public QWidget
 {
-    Q_OBJECT
+	Q_OBJECT
 
 public:
-    explicit Analog24HourClock(QWidget* parent = 0);
+	explicit Analog24HourClock(QWidget* parent = 0);
 
 protected:
-    virtual void paintEvent(QPaintEvent* event) override;
+	virtual void paintEvent(QPaintEvent* event) override;
 };

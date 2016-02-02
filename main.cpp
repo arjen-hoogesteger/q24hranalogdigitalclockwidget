@@ -22,8 +22,8 @@
 
 int main(int argc, char *argv[])
 {
-    QApplication app(argc, argv);
-    Analog24HourClock clock;
-    clock.show();
-    return app.exec();
+	QApplication app(argc, argv);
+	Analog24HourClock clock;
+	clock.show();
+	return app.exec();
 }
